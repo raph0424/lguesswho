@@ -1,3 +1,12 @@
+// Loader
+$(window).on('load', function(){
+  setTimeout(function(){
+    $('.loader').fadeOut();
+  }, 1500)
+
+})
+
+
 var pics = ["bellatrix.jpg", "dobby.jpg", "draco.jpg", "dudley.jpg", "dumbledore.jpg", "fred.png", "ginny.jpg", "hagrid.png", "harry.jpg", "hermione.jpg", "luna.jpeg", "lupin.jpg", "madeye.png", "mcgonagall.jpg", "molly.jpg", "arthur.jpg", "myrtle.jpg", "neville.jpg", "petunia.jpg", "ron.jpg", "snape.jpg", "vernon.jpg", "voldemort.jpg", "sirius.jpg", "fatlady.png"];
 
 //My Guess Who Character
