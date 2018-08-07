@@ -95,6 +95,8 @@ ul.pre-loader li:nth-child(5) {
 
 body {
   background-image: url('../img/map.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
@@ -190,4 +192,12 @@ button:hover {
 
 .card.flipped img {
   display: none;
+}
+
+/* Media Queries */
+@media (min-width: 1300px) {
+  .main-content {
+    max-width: 1300px;
+    margin: auto;
+  }
 }
