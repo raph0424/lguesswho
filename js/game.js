@@ -62,8 +62,8 @@ $('#loss').click(function(){
 // Reset Game Board
 
 function reset(){
-  var play = prompt('Do you want to play again?');
-  if (play.toLowerCase() == 'yes'){
+  var play = confirm('Do you want to play again?');
+  if (play == true){
     $('#gameboard').html('');
     myCharacter();
     shuffle();
